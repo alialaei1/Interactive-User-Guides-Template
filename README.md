@@ -60,7 +60,7 @@ Once you have installed and configured the Django project, you can run it using 
 python manage.py runserver
 ```
 
-This command will start the Django development server, and you should be able to access the project by navigating to ```sh http://127.0.0.1:8000/``` in your web browser.
+This command will start the Django development server, and you should be able to access the project by navigating to ```http://127.0.0.1:8000/``` in your web browser.
 
 That's it! You should now have this Django project up and running on your local machine.
 
