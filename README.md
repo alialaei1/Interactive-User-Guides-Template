@@ -104,7 +104,7 @@ Open your web browser and navigate to ```http://localhost:8000/admin/```. Log in
 | ----------- | ----------- |
 | Users      | In this section, you can manage users (add or delete)       |
 | Topic   | In this section, you can create the main topics for which you want to raise questions or issues, for example: training a specific device or a specific topic of an application. Note that by choosing a unique link for your topic, you can share it through the link or QR code.        |
-| Questions   | Text        |
+| Questions   | In this section, you can create as many questions as you want for each type, for example: training on turning on the device - training on connecting the device to the Internet or training on registering on the website        |
 | Answers   | Text        |
 
 ## License
