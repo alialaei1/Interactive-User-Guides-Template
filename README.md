@@ -102,7 +102,7 @@ Open your web browser and navigate to ```http://localhost:8000/admin/```. Log in
 
 | Syntax      | Description |
 | ----------- | ----------- |
-| Users      | Title       |
+| Users      | In this section, you can manage users (add or delete)       |
 | topic   | Text        |
 | Questions   | Text        |
 | Answers   | Text        |
