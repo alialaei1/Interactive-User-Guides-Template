@@ -86,8 +86,8 @@ python manage.py createsuperuser
 We then write the following credentials step by step. We can fill these credentials according to our preferences:
 
 ```sh
-Username: testAdminUser
-Email address: test@gmail.com
+Username: admin
+Email address: admin@gmail.com
 Password: ********
 Password (again): ********
 ```
