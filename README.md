@@ -98,9 +98,9 @@ That's it! You should now have this Django project up and running on your local 
 ```
 
 ```sh
- http://127.0.0.1:8000/admin
+Username: testAdminUser
+Password: ********
 ```
-
 
 
 ## License
