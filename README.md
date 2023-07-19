@@ -53,6 +53,25 @@ source env/bin/activate
 ```sh
 pip install -r requirements.txt
 ```
+
+### Create user to create and edit data 
+
+create a superuser by writing the following command:
+```sh
+python3 manage.py createsuperuser
+```
+We then write the following credentials step by step. We can fill these credentials according to our preferences:
+
+```sh
+Username: testAdminUser
+Email address: test@gmail.com
+Password: ********
+Password (again): ********
+```
+Note: After filling a row, press “Enter” to fill the other information.
+
+Now the superuser will be created if we have entered all fields correctly.
+
 ### Running the Project
 
 Once you have installed and configured the Django project, you can run it using the following command:
