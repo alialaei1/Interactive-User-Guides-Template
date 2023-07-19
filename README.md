@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 create a superuser by writing the following command:
 ```sh
-python3 manage.py createsuperuser
+python manage.py createsuperuser
 ```
 We then write the following credentials step by step. We can fill these credentials according to our preferences:
 
