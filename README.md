@@ -2,7 +2,7 @@
 
 <div align="center">
 <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" target="_blank" /></div>
-
+</br>
 This project is a web-based interactive user guide template that is built using the Django web framework. It provides a flexible and customizable platform for creating user guides that can be used to educate and onboard new users, or to provide assistance and support for existing users.
 
 The user guide template includes a variety of features, such as interactive walkthroughs, step-by-step instructions, and tooltips, designed to help users learn and navigate your application or website. The user guide is also fully responsive, meaning it can be accessed from any device, including desktops, tablets, and smartphones.
