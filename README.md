@@ -78,7 +78,7 @@ This command will start the Django development server, and you should be able to
 That's it! You should now have this Django project up and running on your local machine.
 
 
-### Create user to create and edit data 
+### Create user for the first time
 
 create a superuser by writing the following command:
 ```sh
