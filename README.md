@@ -30,7 +30,6 @@ This Django project is designed to be easy to set up and run. Here are the steps
 Before you can run this Django project, you need to have the following software installed:
 
 Python 3.6 or later
-Django 3.0 or later
 
 ### Installation
 
