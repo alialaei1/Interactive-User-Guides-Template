@@ -86,6 +86,14 @@ That's it! You should now have this Django project up and running on your local 
 
 ### Create and edit data
 
+```sh
+ http://127.0.0.1:8000/admin
+```
+
+```sh
+ http://127.0.0.1:8000/admin
+```
+
 
 
 ## License
