@@ -100,7 +100,7 @@ Now the superuser will be created if we have entered all fields correctly.
 Open your web browser and navigate to ```http://localhost:8000/admin/```. Log in using the superuser account that you created in Previous step. You should now be able to manage your models through the admin site.
 
 
-| Syntax      | Description |
+| Section       | Description |
 | ----------- | ----------- |
 | Users      | In this section, you can manage users (add or delete)       |
 | Topic   | In this section, you can create the main topics for which you want to raise questions or issues, for example: training a specific device or a specific topic of an application. Note that by choosing a unique link for your topic, you can share it through the link or QR code.        |
