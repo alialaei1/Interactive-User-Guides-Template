@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block content %}
+
+
+<!-- Background image -->
+<body style="background-color:rgba(240, 247, 241, 0.5); ">
+  <div style="  margin-top: 2rem !important;  margin-bottom: 2rem !important;">
+
+  <div class="container  mb-auto py-2">
+    {% for data in questiondata.answer.all %}
+    <p>
+        {{ data.Qcontent|safe}}
+    </p>
+    {% endfor %}
+</div>
+</div>
+</body>
+
+{% endblock %}
+
+

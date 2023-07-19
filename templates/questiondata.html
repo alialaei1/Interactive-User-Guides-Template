@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block content %}
+
+
+<!-- Background image -->
+<body style="background-color:rgba(255, 166, 0, 0.5);  ">
+  <div style="  margin-top: 2rem !important;  margin-bottom: 2rem !important;">
+
+  <div class="container">
+    <div class="row row-cols-2 row-cols-md-4 g-4">
+{% for data in devicedata.questions.all %}
+<div class="col">
+  <div  class="card h-100 "  style="background-color:rgba(46, 46, 46, 0.719);">
+    <a href="{% url 'answer_view' devicedata.link data.pk %}"> <img src= "/{{data.Qimage}}"class="card-img-top" alt="/google.com" href="google.com"></a>
+    <div class="card-body text-center">
+      <!--<h5 class="card-title" style="color:rgb(255, 255, 255);">{{ data.Question}}</h5>-->
+      <p class="card-text" style="color:rgb(255, 255, 255);">{{ data.Question}}</p>
+      <a href="{% url 'answer_view' devicedata.link data.pk %}" class="btn btn-primary">آموزش</a>
+    </div>
+  </div>
+</div>
+{% endfor %}
+</div>
+</div>
+</div>
+</body>
+
+{% endblock %}

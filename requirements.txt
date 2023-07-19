@@ -1,0 +1,9 @@
+asgiref==3.7.2
+Django==4.2.3
+django-bootstrap5==23.3
+django-ckeditor==6.6.1
+django-js-asset==2.1.0
+Pillow==10.0.0
+sqlparse==0.4.4
+typing_extensions==4.7.1
+tzdata==2023.3
