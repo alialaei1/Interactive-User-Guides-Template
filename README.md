@@ -54,23 +54,7 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-### Create user to create and edit data 
 
-create a superuser by writing the following command:
-```sh
-python manage.py createsuperuser
-```
-We then write the following credentials step by step. We can fill these credentials according to our preferences:
-
-```sh
-Username: testAdminUser
-Email address: test@gmail.com
-Password: ********
-Password (again): ********
-```
-Note: After filling a row, press “Enter” to fill the other information.
-
-Now the superuser will be created if we have entered all fields correctly.
 
 ### Running the Project
 
@@ -92,6 +76,25 @@ python manage.py runserver
 This command will start the Django development server, and you should be able to access the project by navigating to ```http://127.0.0.1:8000/``` in your web browser.
 
 That's it! You should now have this Django project up and running on your local machine.
+
+
+### Create user to create and edit data 
+
+create a superuser by writing the following command:
+```sh
+python manage.py createsuperuser
+```
+We then write the following credentials step by step. We can fill these credentials according to our preferences:
+
+```sh
+Username: testAdminUser
+Email address: test@gmail.com
+Password: ********
+Password (again): ********
+```
+Note: After filling a row, press “Enter” to fill the other information.
+
+Now the superuser will be created if we have entered all fields correctly.
 
 
 ### Create and edit data
