@@ -41,7 +41,7 @@ git clone [https://github.com/yourusername/yourproject.git](https://github.com/a
 ```
 2- Navigate to the project directory using the command:
 ```sh
-cd yourproject
+cd [yourproject](Interactive-User-Guides-Template)
 ```
 3- Create a virtual environment and activate it using the following commands:
 ```sh
