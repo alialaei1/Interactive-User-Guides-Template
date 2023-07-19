@@ -74,17 +74,20 @@ Now the superuser will be created if we have entered all fields correctly.
 
 ### Running the Project
 
+for the first time, before running server run commands:
+
+```sh
+python manage.py makemigrations
+```
+```sh
+python manage.py migrate
+```
+
 Once you have installed and configured the Django project, you can run it using the following command:
+
 ```sh
 python manage.py runserver
 ```
-
-```sh
-Username: testAdminUser
-Password: ********
-```
-
-
 
 This command will start the Django development server, and you should be able to access the project by navigating to ```http://127.0.0.1:8000/``` in your web browser.
 
