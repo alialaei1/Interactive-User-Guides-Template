@@ -100,7 +100,10 @@ Now the superuser will be created if we have entered all fields correctly.
 Open your web browser and navigate to ```http://localhost:8000/admin/```. Log in using the superuser account that you created in Previous step. You should now be able to manage your models through the admin site.
 
 
-
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 
 ## License
 MIT
