@@ -37,7 +37,7 @@ To install this Django project, follow these steps:
 
 1- Clone the project repository to your local machine using the command:
 ```sh
-git clone https://github.com/yourusername/yourproject.git
+git clone [https://github.com/yourusername/yourproject.git](https://github.com/alialaei110/Interactive-User-Guides-Template.git)
 ```
 2- Navigate to the project directory using the command:
 ```sh
