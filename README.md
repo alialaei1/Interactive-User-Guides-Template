@@ -97,15 +97,9 @@ Now the superuser will be created if we have entered all fields correctly.
 
 
 ### Create and edit data
+Open your web browser and navigate to ```http://localhost:8000/admin/```. Log in using the superuser account that you created in Previous step. You should now be able to manage your models through the admin site.
 
-```sh
-http://127.0.0.1:8000/admin
-```
 
-```sh
-Username: testAdminUser
-Password: ********
-```
 
 
 ## License
