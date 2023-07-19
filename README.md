@@ -102,8 +102,10 @@ Open your web browser and navigate to ```http://localhost:8000/admin/```. Log in
 
 | Syntax      | Description |
 | ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| Users      | Title       |
+| topic   | Text        |
+| Questions   | Text        |
+| Answers   | Text        |
 
 ## License
 MIT
