@@ -46,7 +46,7 @@ cd Interactive-User-Guides-Template
 3- Create a virtual environment and activate it using the following commands:
 ```sh
 python -m venv env
-source env/bin/activate
+source env/Scripts/activate
 ```
 4- Install the project dependencies using the command:
 ```sh
