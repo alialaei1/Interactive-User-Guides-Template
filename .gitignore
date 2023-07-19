@@ -1,6 +1,7 @@
 # DB
 backup-dbs/
 media/
+uploads/
 *.sqlite3
 
 # Javascript
