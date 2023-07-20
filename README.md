@@ -6,6 +6,12 @@
 This project is a web-based interactive user guide template built using the Django web framework. It provides a flexible and customizable platform for creating user guides that can be used to educate and onboard new users or to provide assistance and support for existing users.
 </br>
 </br>
+
+<div align="center">
+<img src="Document/Image/demo4.JPG" target="_blank" /></div>
+</br>
+</br>
+
 The user guide template includes a variety of features, such as interactive walkthroughs, step-by-step instructions, and tooltips, designed to help users learn and navigate your application or website. The user guide is also fully responsive, meaning it can be accessed from any device, including desktops, tablets, and smartphones.
 </br>
 </br>
