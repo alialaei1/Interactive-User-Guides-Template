@@ -19,14 +19,14 @@ from django.urls import path, include,re_path
 from django.conf import settings  # new
 from django.conf.urls.static import static  # new
 
-from BPage.views import device_view,question_view,answer_view
+from BPage.views import topic_view,question_view,answer_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('admin', admin.site.urls),
-    path('', device_view,name="device_view"),
-    path('device/<int:pk>/', question_view, name='question_view'),
-    path('device/<int:pk>/<int:ck>/answer/', answer_view, name='answer_view'),
+    path('', topic_view,name="topic_view"),
+    path('topic/<int:pk>/', question_view, name='question_view'),
+    path('topic/<int:pk>/<int:ck>/answer/', answer_view, name='answer_view'),
     re_path(r'^ckeditor/', include('ckeditor_uploader.urls')),
 ]
 

@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from .models import Topic,Question
 
-def device_view(request):
+def topic_view(request):
     topicsdata = Topic.objects.all()
     context = {'topicsdata': topicsdata}
     template_name = 'topicsdata.html'
