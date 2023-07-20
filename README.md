@@ -1,7 +1,5 @@
 # Interactive User Guides Template Based on Django
 
-<div align="center">
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" target="_blank" /></div>
 </br>
 This project is a web-based interactive user guide template built using the Django web framework. It provides a flexible and customizable platform for creating user guides that can be used to educate and onboard new users or to provide assistance and support for existing users.
 </br>
