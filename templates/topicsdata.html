@@ -5,19 +5,19 @@
 
 
 <!-- Background image -->
-<body style="background-color:rgba(255, 166, 0, 0.5); ">
+<body style="background-color:rgba(0,255,127, 0.5); ">
   <div style="  margin-top: 2rem !important;  margin-bottom: 2rem !important;">
 
   <div class="container">
     <div class="row row-cols-2 row-cols-md-4 g-4">
-{% for data in devicesdata %}
+{% for data in topicsdata %}
 <div class="col">
   <div  class="card h-100 "  style="background-color:rgba(46, 46, 46, 0.664);">
     <a href="{% url 'question_view' data.link %}"> <img src= "/{{data.image}}"class="card-img-top" alt="/google.com" href="google.com"></a>
     <div class="card-body text-center">
-      <h5 class="card-title" style="color:rgb(255, 255, 255);">{{ data.model}}</h5>
+      <h5 class="card-title" style="color:rgb(255, 255, 255);">{{ data.topic_name}}</h5>
       <p class="card-text" style="color:rgb(255, 255, 255);">{{ data.description}}</p>
-      <a href="{% url 'question_view' data.link %}" class="btn btn-primary">ورود</a>
+      <a href="{% url 'question_view' data.link %}" class="btn btn-primary">About {{ data.topic_name}}</a>
     </div>
   </div>
 </div>

@@ -23,6 +23,7 @@ from BPage.views import device_view,question_view,answer_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('admin', admin.site.urls),
     path('', device_view,name="device_view"),
     path('device/<int:pk>/', question_view, name='question_view'),
     path('device/<int:pk>/<int:ck>/answer/', answer_view, name='answer_view'),

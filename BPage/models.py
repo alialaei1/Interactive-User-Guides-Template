@@ -3,18 +3,18 @@ from ckeditor_uploader.fields import RichTextUploadingField
 
 
 # Create your models here.
-class Devices(models.Model):
-    model = models.CharField(max_length=255, unique=True)
+class Topic(models.Model):
+    topic_name = models.CharField(max_length=255, unique=True)
     description = models.TextField(blank=True)
     link = models.IntegerField(unique=True)
     image = models.ImageField(upload_to ='uploads')
     def __str__(self):
-        return f"{self.model}"
+        return f"{self.topic_name}"
 
 
 class Question(models.Model):
-    modelname = models.ForeignKey(
-            Devices,
+    topic_name = models.ForeignKey(
+            Topic,
             related_name='questions',
             on_delete=models.CASCADE,
         )
@@ -23,10 +23,10 @@ class Question(models.Model):
     Qimage = models.ImageField(upload_to ='uploads')
 
     class Meta:
-        unique_together = ('modelname', 'Question')
+        unique_together = ('topic_name', 'Question')
 
     def __str__(self):
-        return f" {self.modelname} Devices - {self.Question}"
+        return f" {self.topic_name} Topics - {self.Question}"
 
 
 class Answer(models.Model):
