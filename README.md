@@ -119,7 +119,7 @@ Open your web browser and navigate to ```http://127.0.0.1:8000/admin/```. Log in
 | Answers   | In this section you can create an answer for each question, on the answer page you can use video, photos, fonts and various colors like a weblog.        |
 
 ## License
-MIT License [link](LICENSE)
+[MIT License](LICENSE)
 
 **Free Software!**
 
