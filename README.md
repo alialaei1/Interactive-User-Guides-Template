@@ -121,6 +121,6 @@ Open your web browser and navigate to ```http://127.0.0.1:8000/admin/```. Log in
 ## License
 [MIT License](LICENSE)
 
-**Free Software!**
+Free Software!
 
 
